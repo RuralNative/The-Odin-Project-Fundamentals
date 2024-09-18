@@ -4,6 +4,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-around;
     background-color: #1F2937;
 }
 
@@ -12,9 +14,23 @@ header p {
     color: #F9FAF8;
 }
 
-header ol {
+.navigation-bar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.navigation-bar ol {
+    display: flex;
+    justify-content: space-between;
+    gap: 8em;
+    list-style-type: none;
     font-size: 18px;
+}
+
+.navigation-bar ol li a {
     color: #EFE7EB;
+    text-decoration: none;
 }
 
 .introductory-container {
