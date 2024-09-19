@@ -1,11 +1,14 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
 header {
     display: flex;
+    height: 5rem;
     justify-content: space-around;
+    align-items: center;
+    align-content: center;
     background-color: #1F2937;
 }
 
@@ -35,15 +38,38 @@ header p {
 
 .introductory-container {
     background-color: #1F2937;
+    display: flex;
+    height: 35rem;
+    gap: 10rem;
+    justify-content: center;       
+    align-items: center;                             
+    align-content: center;
+}                           
+
+.introductory-subcontainer {
+    width: 35rem;
+    height: auto;
 }
 
-.introductory-container h1 {
+.introductory-subcontainer h1 {
+    margin: 15px;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.introductory-container p {
+.introductory-subcontainer p {
+    margin: 15px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.introductory-subcontainer button {
+    margin: 15px;
+    padding: 15px;
+}
+
+.introductory-container img {
+    width: 30%;
+    height: auto;
 }
