@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+button {
+    background-color: #3882F6;
+    margin: 15px;
+    padding: 15px;
+    color: #E5E7EB;
+    border-radius: 12px;
+    border: none;
+}
+
 header {
     display: flex;
     height: 5rem;
@@ -65,6 +74,7 @@ header p {
 }
 
 .introductory-subcontainer button {
+    background-color: #3882F6;
     margin: 15px;
     padding: 15px;
 }
@@ -72,4 +82,35 @@ header p {
 .introductory-container img {
     width: 30%;
     height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.gallery-container {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.gallery-container div {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 15rem;
+}
+
+.gallery-container img {
+    border: #3882F6 3px outset;
+    width: 15rem;
+    height: 10rem;
+}
+
+.gallery-container p {
+    text-align: center;
 }
