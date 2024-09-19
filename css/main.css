@@ -90,13 +90,14 @@ header p {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .gallery-container {
     display: flex;
     margin-top: 3rem;
+    color: #1F2937;
 }
 
 .gallery-container div {
@@ -114,3 +115,28 @@ header p {
 .gallery-container p {
     text-align: center;
 }
+
+.quotation-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    height: 35rem;
+}
+
+.quotation-container .quotation-content {
+    width: 80rem;
+}
+
+.quotation-container .quotation-author {
+    width: 80rem;
+    font-style: normal;
+    text-align: end;
+    font-weight: 900;
+}
+
