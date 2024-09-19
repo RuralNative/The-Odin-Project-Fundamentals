@@ -53,5 +53,17 @@ playRound = (humanChoice, computerChoice) => {
     }
 }
 
-const humanSelection = getHumanChoice()
-const computerSelection = getComputerChoice()
+playGame = () => {
+    for (roundCount = 1; roundCount < 6; roundCount++) {
+        console.log("")
+        console.log("Start Game")
+        let humanSelection = getHumanChoice()
+        let computerSelection = getComputerChoice()
+        playRound(humanSelection, computerSelection)
+        console.log("Your Score: " + humanScore)
+        console.log("Computer's Score: " + computerScore)
+        console.log("End Game")
+    }
+}
+
+playGame()
