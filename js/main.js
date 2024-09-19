@@ -14,20 +14,14 @@ getComputerChoice = () => {
     }
 }
 
-1 2 3
-1 2 3
-
-11, 12, 13, 21, 22, 23, 31, 32, 33
-
-
 getHumanChoice = () => {
     let humanChoice = prompt("Rock, Paper, or Scissors?", "Rock/Paper/Scissors").toUpperCase()
     console.log("You chose " + humanChoice)
-    if (humanChoice == "ROCK" || "PAPER" || "SCISSORS") {
+    if (["ROCK", "PAPER", "SCISSORS"].includes(humanChoice)) {
         return humanChoice
     } else {
         console.log("Wrong Input. Choose only either Rock, Paper, or Scissors.")
-        getHumanChoice()
+        return getHumanChoice()
     }
 }
 
