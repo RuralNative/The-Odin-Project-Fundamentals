@@ -6,10 +6,14 @@
     align-items: center;
     align-content: center;
     background-color: cadetblue;
+    height: 1200px; /* Adjust as needed */
+    width: 1200px; /* Adjust as needed */
+    padding: 20px;
 }
 
 .grid-square {
-    display: flex;
-    flex-basis: 6%;
+    flex-basis: calc(100% / 17);
+    height: calc(100% / 17);
     background-color: aquamarine;
+    margin: 1px;
 }
