@@ -1,3 +1,7 @@
+window.onload = () => {
+    initializeGrid()
+}
+
 let initializeGrid = () => {
     // Initialize Grid Container with Assigned Class/Style
     const gridContainer = document.createElement("div")
